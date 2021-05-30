@@ -2,7 +2,7 @@ import React from "react";
 import SocketCore from "./core";
 
 const useInit = (url, roomId) => {
-  const socket = SocketCore.init(url, roomId);
+  const socket = SocketCore.init(url, roomId); 
   return socket;
 };
 
